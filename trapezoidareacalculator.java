@@ -9,7 +9,7 @@ public class trapezoidareacalculator
         c=length of second parallel side */
         double a,b,c,h;
         try (Scanner read = new Scanner(System.in)) {
-            while(1>0)
+            while(true)
             {
                 System.out.println("HELLO");
                 System.out.println("WELCOME TO TRAPEZOID AREA CALCULATOR");
@@ -55,4 +55,5 @@ public class trapezoidareacalculator
             }
         }
     }
+
 }
