@@ -11,45 +11,45 @@ public class trapezoidareacalculator
         try (Scanner read = new Scanner(System.in)) {
             while(true)
             {
-                System.out.println("HELLO");
-                System.out.println("WELCOME TO TRAPEZOID AREA CALCULATOR");
-                System.out.println("ENTRE HEIGHT OF TRAPEZOID");
+                System.out.println("Hello");
+                System.out.println("Welcome to Trapezoid Area Calculator");
+                System.out.println("Entre height of trapezoid");
                 h=read.nextDouble();
                 if(h>0)
                 {
-                    System.out.println("ENTRE LENGTH OF FIRST PARALLEL SIDE");
+                    System.out.println("Entre length of First Parallel side");
                     b=read.nextDouble();
                     if(b>0)
                     {
-                        System.out.println("ENTRE LENGTH OF SECOND PARALLEL SIDE");
+                        System.out.println("Entre Length of Second Parallel side");
                         c=read.nextDouble();
                         if(c>0)
                         {
                             a=h*((b+c)/2);
-                            System.out.println("AREA OF TRAPEZOID IS");
+                            System.out.println("Area of Trapezoid is");
                             System.out.println(a);
-                            System.out.println("THANKS");
-                            System.out.println("BYE");
+                            System.out.println("Thank you");
+                            System.out.println("Bye");
                             System.out.println(".");
                         }
-                        if(c<0)
+                        if(c<=0)
                         {
-                            System.out.println("PARALLEL LINE OF TRAPEZOID CANT BE NEGATIVE");
-                            System.out.println("TRY AGAIN");
+                            System.out.println("Parallel Line of Trapezoid cant be negative or zero");
+                            System.out.println("Try again");
                             System.out.println(".");
                         }
                     }
-                    if (b<0)
+                    if (b<=0)
                     {
-                        System.out.println("PARALLEL LINE OF TRAPEZOID CANT BE NEGATIVE");
-                        System.out.println("TRY AGAIN");
+                        System.out.println("Parallel Line of Trapezoid cant be negative or zero");
+                        System.out.println("Try again");
                         System.out.println(".");
                     }
                 }
-                if(h<0)
+                if(h<=0)
                 {
-                    System.out.println("HEIGHT OF TRAPEZOID CANT BE NEGATIVE");
-                    System.out.println("TRY AGAIN");
+                    System.out.println("Height of Trapezoid cant be negative or zero");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
             }
@@ -57,3 +57,4 @@ public class trapezoidareacalculator
     }
 
 }
+
