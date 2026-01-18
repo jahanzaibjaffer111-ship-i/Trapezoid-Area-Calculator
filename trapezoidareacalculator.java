@@ -32,21 +32,21 @@ public class trapezoidareacalculator
                             System.out.println("Bye");
                             System.out.println(".");
                         }
-                        if(c<=0)
+                        else if(c<=0)
                         {
                             System.out.println("Parallel Line of Trapezoid cant be negative or zero");
                             System.out.println("Try again");
                             System.out.println(".");
                         }
                     }
-                    if (b<=0)
+                    else if (b<=0)
                     {
                         System.out.println("Parallel Line of Trapezoid cant be negative or zero");
                         System.out.println("Try again");
                         System.out.println(".");
                     }
                 }
-                if(h<=0)
+                else if(h<=0)
                 {
                     System.out.println("Height of Trapezoid cant be negative or zero");
                     System.out.println("Try again");
@@ -57,4 +57,5 @@ public class trapezoidareacalculator
     }
 
 }
+
 
